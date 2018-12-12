@@ -60,20 +60,20 @@ body{
 }
 
 .login-body{
-        text-align: center;
+    text-align: center;
 }
     
 input{
-        width: 30%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 2px solid  rgb(50, 205, 109);
-        border-radius: 4px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  rgb(50, 205, 109);
+    border-radius: 4px;
 }
     
 input:focus{
-        border: 3px solid lightblue;;
+        border: 3px solid #2e4250;;
     }
 
 /* Constants */
