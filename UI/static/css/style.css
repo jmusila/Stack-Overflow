@@ -38,11 +38,31 @@ body{
     padding: 5px;
 
 /* Constants */
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    width: 80%;
-    margin: auto;
+.container{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
+/* Footer */
+.site-footer{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    border-top: 1px solid #ebeff2;
+    padding: 1em; */
+    padding:30px;
+    margin-top:20px;
+    color:#ffffff;
+    text-align: center;
+}
+/* Responsive */
+@media only screen and (max-width: 767px){
+    .column {
+        width: 100% !important;
+    }
+}
