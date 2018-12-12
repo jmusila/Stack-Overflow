@@ -1,4 +1,4 @@
-# Stack-Overflow
+# Stack-Overflow-Lite
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
 ## Getting Started
@@ -10,10 +10,9 @@ A few requirements to get, run and test this project.
 cd path/to/directory-your-directory
 - git clone https://github.com/jonathanmusila/Stack-Overflow.git
 - cd to StackOverflow and cd to UI 
-- using your favourite browser open the file index.html
 
 ## Testing
-Manually, open the Postman and test all the endpoints.
+Using your favourite browser open the file index.html
 
 ## Built With
 * HTML, CSS, JAVASCRIPT
