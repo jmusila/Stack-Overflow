@@ -36,29 +36,109 @@ body{
     display: inline;
     float: right;
     padding: 5px;
+}
+
+/* main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+* {-webkit-box-flex: center; -webkit-flex:center;-ms-flex: center; flex: center; }
+
+.button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+  .question{
+    padding:15px;  
+    font-style: normal;
+    float: left;
+    background:#f4f4f4;
+    color:#35424a;
+  
+  }
+  .answers{
+    padding:15px;
+    float: right;
+    background:#f4f4f4;
+    font-style: italic;
+    color:#686868;
+  
+  }
+  .dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
 
 /* Constants */
-.container{
-    width: 75%;
+.container {
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     flex-direction: column;
+}
+
+.fa-window-close {
+    background: rgba(231, 213, 213, 0.8);
+    float: right;
+    margin-right: 7px;
+}
+
+.fa-thumbs-up {
+    margin-top: 0%;
+    margin-left: 20%;
+    color: rgba(7, 39, 36, 0.8);
+}
+
+.fa-thumbs-down {
+    margin-top: 10%;
+    margin-left: 5%;
+    color: rgba(105, 74, 7, 0.8);
+}
+
+.likes {
+    margin-top: 10%;
+    margin-left: 15px;
+}
+
+.dislikes {
+    margin-top: 10%;
+    margin-left: 18px;
+}
+
+.fa-comment {
+    margin-left: 22px;
+    color: rgba(49, 6, 24, 0.8);
+}
+
+.fa-pencil-alt {
+    margin-left: 15px;
+    color: rgba(113, 121, 9, 0.8);
+}
+.question{
+    float: right;
+    margin-right: 30px;
+}
+.question a{
+    text-decoration: none;
 }
 
 /* Footer */
 .site-footer{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #111111;
-    border-top: 1px solid #ebeff2;
-    padding: 1em; */
-    padding:30px;
-    margin-top:20px;
-    color:#ffffff;
-    text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        background-color:rgb(15, 15, 15);
+        color: white;
+        text-align: center;
+      }
 }
 /* Responsive */
 @media only screen and (max-width: 767px){
