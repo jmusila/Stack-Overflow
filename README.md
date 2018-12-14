@@ -4,7 +4,7 @@
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
 ## Description
-The project is still a static site ([click here](https://jonathanmusila.io/Stack-Overflow/UI/html/index.html) ) and the functionality is not implemented yet.
+The project is still a static site ([click here](https://jonathanmusila.io/Stack-Overflow/UI/) ) and the functionality is not implemented yet.
 
 The project is managed with a pivotal tracker board [click here](https://www.pivotaltracker.com/n/projects/2231021)
 
