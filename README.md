@@ -1,3 +1,5 @@
+# Store Manager [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Stack-Overflow-Lite
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
